@@ -1,0 +1,64 @@
+/*@charset "utf-8";*/
+/* CSS Document */
+
+.header {
+padding: 10px 0px 10px 0px;
+width:100%;
+background: black;
+color: white;
+font-size: 15px;
+}
+
+.header img{
+margin-left:20px;
+float: left;
+width: 70px;
+height: 70px;
+}
+
+
+.signupbtn {
+background-color: #ffffff;
+color: black;
+padding: 8px 15px;
+margin-right: 20px;
+font-size: 16px;
+cursor: pointer;
+border: grey;
+box-shadow: 2px 4px grey;
+float:right;
+}
+
+.loginbtn {
+background-color: white;
+color: black;
+padding: 8px 20px;
+margin-right: 20px;
+border: grey;
+font-size:16px;
+cursor: pointer;
+box-shadow: 2px 4px grey;
+float:right;
+}
+
+.logoutbtn {
+background-color: #ffffff;
+color: black;
+padding: 8px 15px;
+margin-right: 50px;
+font-size: 16px;
+cursor: pointer;
+border: grey;
+box-shadow: 2px 4px grey;
+float:right;
+}
+
+
+
+
+
+
+
+body{
+
+}

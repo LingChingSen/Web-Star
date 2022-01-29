@@ -1,0 +1,9 @@
+[25-Jan-2022 23:04:48 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php:2142
+Stack trace:
+#0 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php(1953): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php(1635): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 25 J...', 'We have receive...')
+#2 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php(1468): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/sendEmail.php(105): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/sendEmail.php(24): sendEmail('chingsen789@gma...', 'cZEPM678')
+#5 {main}
+  thrown in /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php on line 2142
